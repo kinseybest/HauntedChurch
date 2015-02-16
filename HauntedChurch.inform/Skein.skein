@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x2c3860" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x2c3860" />
+  <activeNode nodeId="node-0x134a8870" />
   <item nodeId="node-0x2c3860">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -18,33 +18,158 @@ It is another boring day at work. You hear the constant clicking sounds from emp
 
 You can hear naughty sounds coming from Larry&apos;s computer next to your cubical.
 
-You can also see a phone here.
+You can also see a timesheet and a phone here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="13">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="57">NO</temporary>
     <children>
-      <child nodeId="node-0x2c3d40" />
-      <child nodeId="node-0x2c3900" />
-      <child nodeId="node-0x2c38b0" />
+      <child nodeId="node-0x2c3e20" />
       <child nodeId="node-0x9304fa0" />
+      <child nodeId="node-0x2c3900" />
+      <child nodeId="node-0xa87c790" />
+      <child nodeId="node-0x93051c0" />
+      <child nodeId="node-0xb3e4140" />
       <child nodeId="node-0x9304d90" />
+      <child nodeId="node-0xa86a1f0" />
+      <child nodeId="node-0x9305230" />
+      <child nodeId="node-0xa80a850" />
+      <child nodeId="node-0x2c38b0" />
+      <child nodeId="node-0xa82df60" />
+      <child nodeId="node-0x2c3d40" />
       <child nodeId="node-0x9304d40" />
       <child nodeId="node-0x9305150" />
-      <child nodeId="node-0x2c3e20" />
-      <child nodeId="node-0x9305230" />
-      <child nodeId="node-0x93051c0" />
     </children>
   </item>
-  <item nodeId="node-0x93051c0">
-    <command xml:space="preserve">take computer</command>
-    <result xml:space="preserve">That&apos;s fixed in place.
+  <item nodeId="node-0x9305150">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Foyer
+Fuck this place. You walk to the foyer of the building to get out of here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="1">YES</temporary>
+    <temporary score="12">YES</temporary>
+  </item>
+  <item nodeId="node-0x9304d40">
+    <command xml:space="preserve">go s</command>
+    <result xml:space="preserve">
+Boss&apos;s Office
+You are in your Boss&apos;s office. He&apos;s not here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x2c3d40">
+    <command xml:space="preserve">pick up</command>
+    <result xml:space="preserve">What do you want to pick up?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x2c3db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2c3db0">
+    <command xml:space="preserve">phone</command>
+    <result xml:space="preserve">It&apos;s too heavy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0xa82df60">
+    <command xml:space="preserve">ask phoenix about chicken</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0xa805a50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa805a50">
+    <command xml:space="preserve">x phoenix</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0xa860e20" />
+    </children>
+  </item>
+  <item nodeId="node-0xa860e20">
+    <command xml:space="preserve">x phoenix</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x2c38b0">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">
+Boss&apos;s Office
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="2">YES</temporary>
+  </item>
+  <item nodeId="node-0xa80a850">
+    <command xml:space="preserve">x phoenix</command>
+    <result xml:space="preserve">Phoenix is a cool motherfucker. Like, he could easilly get your mum to ACTUALLY fuck him. He always comes in late, but the boss never seems to fire him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0x93d2e10" />
+      <child nodeId="node-0x93cbb20" />
+    </children>
+  </item>
+  <item nodeId="node-0x93cbb20">
+    <command xml:space="preserve">ask phoenix about drugs</command>
+    <result xml:space="preserve">Drugs!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+    <children>
+      <child nodeId="node-0xb304220" />
+    </children>
+  </item>
+  <item nodeId="node-0xb304220">
+    <command xml:space="preserve">talk to phoenix</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+  </item>
+  <item nodeId="node-0x93d2e10">
+    <command xml:space="preserve">ask phoenix about chickens</command>
+    <result xml:space="preserve">What, man? I was too high on these DRUGS to hear you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
   </item>
   <item nodeId="node-0x9305230">
     <command xml:space="preserve">s</command>
@@ -52,14 +177,19 @@ You can also see a phone here.
 Boss&apos;s Office
 You are in your Boss&apos;s office. He&apos;s not here.  I wonder what a guy like this keeps in his desk. 
 
-You can see a drawer here.
+You can see a drawer (closed) and a boss&apos;s key here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="20">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
     <children>
+      <child nodeId="node-0xa8e9640" />
+      <child nodeId="node-0xb3da3c0" />
+      <child nodeId="node-0x134153a0" />
+      <child nodeId="node-0x1243b1b0" />
       <child nodeId="node-0x9305570" />
+      <child nodeId="node-0x124b46c0" />
       <child nodeId="node-0x9305420" />
       <child nodeId="node-0x9304ee0" />
     </children>
@@ -137,6 +267,36 @@ You can see a drawer here.
     <changed>YES</changed>
     <temporary score="11">YES</temporary>
   </item>
+  <item nodeId="node-0x124b46c0">
+    <command xml:space="preserve">take boss&apos;s key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x134bd810" />
+    </children>
+  </item>
+  <item nodeId="node-0x134bd810">
+    <command xml:space="preserve">unlock drawer with key</command>
+    <result xml:space="preserve">You unlock the drawer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x134a8870" />
+    </children>
+  </item>
+  <item nodeId="node-0x134a8870">
+    <command xml:space="preserve">open drawer</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+  </item>
   <item nodeId="node-0x9305570">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
@@ -167,46 +327,194 @@ You can see a drawer here.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
   </item>
-  <item nodeId="node-0x2c3e20">
-    <command xml:space="preserve">pick up phone</command>
-    <result xml:space="preserve">&gt;</result>
+  <item nodeId="node-0x1243b1b0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="53">YES</temporary>
     <children>
-      <child nodeId="node-0x9304cf0" />
+      <child nodeId="node-0xa86b820" />
+      <child nodeId="node-0xa8ccab0" />
     </children>
   </item>
-  <item nodeId="node-0x9304cf0">
-    <command xml:space="preserve">examine phone</command>
-    <result xml:space="preserve">Man, has someone turned the default volume up on that phone? I wonder who&apos;s ringing?
+  <item nodeId="node-0xa8ccab0">
+    <command xml:space="preserve">unlcok drawer with key</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="2">YES</temporary>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x13431970" />
+    </children>
   </item>
-  <item nodeId="node-0x9305150">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Foyer
-Fuck this place. You walk to the foyer of the building to get out of here.
+  <item nodeId="node-0x13431970">
+    <command xml:space="preserve">unlock drawer with key</command>
+    <result xml:space="preserve">You unlock the drawer.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="12">YES</temporary>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x124b5600" />
+    </children>
   </item>
-  <item nodeId="node-0x9304d40">
-    <command xml:space="preserve">go s</command>
-    <result xml:space="preserve">
-Boss&apos;s Office
-You are in your Boss&apos;s office. He&apos;s not here.
+  <item nodeId="node-0x124b5600">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open the drawer.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="3">YES</temporary>
+    <temporary score="46">YES</temporary>
+    <children>
+      <child nodeId="node-0x134677e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x134677e0">
+    <command xml:space="preserve">x drawer</command>
+    <result xml:space="preserve">You know it&apos;s the wrong thing to do but you look in the drawer anyway.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="45">YES</temporary>
+  </item>
+  <item nodeId="node-0xa86b820">
+    <command xml:space="preserve">unlock drawer with key</command>
+    <result xml:space="preserve">You unlock the drawer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x124fae30" />
+    </children>
+  </item>
+  <item nodeId="node-0x124fae30">
+    <command xml:space="preserve">take weed</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x134ab220" />
+    </children>
+  </item>
+  <item nodeId="node-0x134ab220">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">You open the drawer, revealing some weed.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x124c8da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x124c8da0">
+    <command xml:space="preserve">take weed</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="53">YES</temporary>
+    <children>
+      <child nodeId="node-0x134ceed0" />
+    </children>
+  </item>
+  <item nodeId="node-0x134ceed0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  some weed
+  a key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+  </item>
+  <item nodeId="node-0x134153a0">
+    <command xml:space="preserve">open How To Be Succesful</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="27">YES</temporary>
+  </item>
+  <item nodeId="node-0xb3da3c0">
+    <command xml:space="preserve">open book</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="36">YES</temporary>
+    <children>
+      <child nodeId="node-0xb38d010" />
+    </children>
+  </item>
+  <item nodeId="node-0xb38d010">
+    <command xml:space="preserve">x book</command>
+    <result xml:space="preserve">You see nothing special about the book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+  </item>
+  <item nodeId="node-0xa8e9640">
+    <command xml:space="preserve">x bookshelf</command>
+    <result xml:space="preserve">The bookshelf is empty.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x1332a120" />
+    </children>
+  </item>
+  <item nodeId="node-0x1332a120">
+    <command xml:space="preserve">open How To Be Successful</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open the book How To Be Succesful.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0xb39cfa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb39cfa0">
+    <command xml:space="preserve">examine How To Be Successful</command>
+    <result xml:space="preserve">I only understood you as far as wanting to examine the book How To Be Succesful.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+  </item>
+  <item nodeId="node-0xa86a1f0">
+    <command xml:space="preserve">ask phoenix about drugs</command>
+    <result xml:space="preserve">What, man? I was too high on these DRUGS to hear you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
   </item>
   <item nodeId="node-0x9304d90">
     <command xml:space="preserve">examine phone</command>
@@ -240,6 +548,84 @@ You are in your Boss&apos;s office. He&apos;s not here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0xb3e4140">
+    <command xml:space="preserve">ask Phoenix about drugs</command>
+    <result xml:space="preserve">Yeah man, I deal, but keep it on the downlow. If you want some, I don&apos;t have any on me, but I just sold The Boss a bag. He&apos;s trying to stiff me on the cash, so I&apos;ll let you in on a secret. He keeps the key to his desk in his &quot;How To Be Succesful&quot; book on his bookshelf.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x13422ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13422ff0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Boss&apos;s Office
+You are in your Boss&apos;s office. He&apos;s not here.  I wonder what a guy like this keeps in his desk. 
+
+You can see a drawer (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x1341a0b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1341a0b0">
+    <command xml:space="preserve">open drawer</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x93051c0">
+    <command xml:space="preserve">take computer</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="1">YES</temporary>
+  </item>
+  <item nodeId="node-0xa87c790">
+    <command xml:space="preserve">ask phoenix about weed</command>
+    <result xml:space="preserve">Drugs!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+  </item>
+  <item nodeId="node-0x2c3900">
+    <command xml:space="preserve">df</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x2c3cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2c3cd0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Boss&apos;s Office
+You are in your Boss&apos;s office. He&apos;s not here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
   </item>
   <item nodeId="node-0x9304fa0">
     <command xml:space="preserve">examine</command>
@@ -293,58 +679,23 @@ You are in your Boss&apos;s office. He&apos;s not here.
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x2c38b0">
-    <command xml:space="preserve">go south</command>
-    <result xml:space="preserve">
-Boss&apos;s Office
+  <item nodeId="node-0x2c3e20">
+    <command xml:space="preserve">pick up phone</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
+    <children>
+      <child nodeId="node-0x9304cf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9304cf0">
+    <command xml:space="preserve">examine phone</command>
+    <result xml:space="preserve">Man, has someone turned the default volume up on that phone? I wonder who&apos;s ringing?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
-  </item>
-  <item nodeId="node-0x2c3900">
-    <command xml:space="preserve">df</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0x2c3cd0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2c3cd0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Boss&apos;s Office
-You are in your Boss&apos;s office. He&apos;s not here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="6">YES</temporary>
-  </item>
-  <item nodeId="node-0x2c3d40">
-    <command xml:space="preserve">pick up</command>
-    <result xml:space="preserve">What do you want to pick up?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="8">YES</temporary>
-    <children>
-      <child nodeId="node-0x2c3db0" />
-    </children>
-  </item>
-  <item nodeId="node-0x2c3db0">
-    <command xml:space="preserve">phone</command>
-    <result xml:space="preserve">It&apos;s too heavy.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
   </item>
 </Skein>
