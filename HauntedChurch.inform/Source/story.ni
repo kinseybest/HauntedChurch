@@ -37,3 +37,7 @@ Foyer is a room. "Fuck this place. You walk to the foyer of the building to get 
 
 Foyer is north of Office Building.
 
+Street is west of Foyer. In the Street is a vehicle called the Car. The description is "You peer through the window of the car and see YOUR MUM SUCKING OFF YOUR BOSS!"
+
+
+
